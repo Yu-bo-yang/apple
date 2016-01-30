@@ -1,0 +1,23 @@
+.banner-content{width:100%;
+                height:78%;
+                box-sizing:border-box;
+                min-height:650px;
+                position: relative;
+	            padding: 10px;}
+ .banner-content section{width:100%;
+                         height:100%;
+                         position: absolute;
+						 left: 0;
+						 top: 0;
+                         background-clip:content-box;
+                         box-sizing:border-box;}
+.banner-content section:nth-child(1){
+	background-repeat:no-repeat;
+	background-image:url(1.jpg);
+    background-size:cover;}
+/* .banner-content section:nth-child(2){
+	background-image:url(2.jpg);
+}
+.banner-content section:nth-child(3){
+	background-image:url(3.png);
+} */
